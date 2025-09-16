@@ -10,9 +10,9 @@
   --heading-3: 55 65 81;
 }
 
-html.dark {
+.dark {
   --color-bg: 3 7 18;
-  --colox-box: 17 24 39;
+  --color-box: 17 24 39;
   --box-border: 243 244 246 / 0.1;
   --box-sd: transparent;
   --heading-1: 255 255 255;
