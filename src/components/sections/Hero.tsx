@@ -33,9 +33,10 @@ export const Hero = () => {
               <form
                 action="#"
                 className="py-1 pl-6 w-full pr-1 flex gap-3 text-heading-3 shadow-lg shadow-box-shadow border-box-border bg-box-bg rounded-full ease-linear
-                    focus-within:bg-body focus-within:border-primary">
+                    focus-within:bg-body focus-within:border-primary"
+              >
                 <span className="min-w-max pr-2 border-r border-box-border">
-                    <svg
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     fill="none"
@@ -51,6 +52,11 @@ export const Hero = () => {
                     />
                   </svg>
                 </span>
+                <input
+                  type="email"
+                  placeholder="johndoe@gmail.com"
+                  className="w-full outline-none bg-transparent"
+                />
               </form>
             </div>
           </div>
