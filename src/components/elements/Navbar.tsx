@@ -49,7 +49,7 @@ export const Navbar = () => {
 
           <div className="min-w-max flex items-center gap-x-3">
             <button
-              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer"
+              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer ransform transition-all duration-300 hover:scale-105"
               onClick={toggleTheme}
             >
               {theme === "dark" ? (

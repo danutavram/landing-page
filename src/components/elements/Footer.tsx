@@ -12,11 +12,13 @@ export const Footer = () => {
             <img src={logo} alt="EdgeAI Logo" className="w-7 h-7" />
             <span className="text-lg font-semibold text-heading-1">EdgeAI</span>
           </div>
-          <ul className="flex gap-6 text-heading-1">
+          <div className="pl-1 border-l text-heading-1">
+          <ul className="flex gap-6 text-heading-1 ">
             {navItems.map((item, key) => (
               <NavItem key={key} href={item.href} text={item.text} />
             ))}
           </ul>
+          </div>
         </div>
       </Container>
     </footer>
